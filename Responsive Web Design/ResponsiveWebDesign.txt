@@ -1,0 +1,2399 @@
+Say Hello to HTML ElementsPassed
+Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+
+First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+
+Do you see the code in your code editor that says <h1>Hello</h1>? That's an HTML element.
+
+Most HTML elements have an opening tag and a closing tag.
+
+Opening tags look like this:
+
+<h1>
+Closing tags look like this:
+
+</h1>
+The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+
+Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+
+To pass the test on this challenge, change your h1 element's text to say Hello World.
+
+
+Solution:
+---------------------
+<h1>Hello World</h1>
+---------------------------------------------------------------------------
+
+Headline with the h2 ElementPassed
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+
+The h2 element you will be adding in this step will add a level two heading to the web page.
+
+This element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings. There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings.
+
+Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element.
+
+Solution:
+---------------------
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+-----------------------------------------------------------------------------
+
+Inform with the Paragraph ElementPassed
+p elements are the preferred element for paragraph text on websites. p is short for "paragraph".
+
+You can create a paragraph element like this:
+
+<p>I'm a p tag!</p>
+Create a p element below your h2 element, and give it the text Hello Paragraph.
+
+Note: As a convention, all HTML tags are written in lowercase, for example <p></p> and not <P></P>.
+
+Solution:
+---------------------
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+-----------------------------------------------------------------------------
+
+Inform with the Paragraph ElementPassed
+p elements are the preferred element for paragraph text on websites. p is short for "paragraph".
+
+You can create a paragraph element like this:
+
+<p>I'm a p tag!</p>
+Create a p element below your h2 element, and give it the text Hello Paragraph.
+
+Note: As a convention, all HTML tags are written in lowercase, for example <p></p> and not <P></P>.
+
+Solution:
+---------------------
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+<p>Hello Paragraph</p>
+-----------------------------------------------------------------------------
+
+Fill in the Blank with Placeholder TextPassed
+Web developers traditionally use lorem ipsum text as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
+
+Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
+
+Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use something called "kitty ipsum" text.
+
+Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+
+Solution:
+---------------------
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff</p>
+-----------------------------------------------------------------------------
+
+
+Uncomment HTMLPassed
+Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
+
+Comments in HTML start with <!-- and end with a -->
+
+Uncomment your h1, h2 and p elements.
+
+Solution:
+---------------------
+<!-- this had a wrapping comment tag around it -->
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+
+-----------------------------------------------------------------------------
+
+Remember that in order to start a comment, you need to use <!-- and to end a comment, you need to use -->
+
+Here you'll need to end the comment before your h2 element begins.
+
+Comment out your h1 element and your p element, but not your h2 element.
+
+Solution:
+---------------------
+<!--
+<h1>Hello World</h1>
+-->
+
+<h2>CatPhotoApp</h2>
+
+<!--
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+-->
+-----------------------------------------------------------------------------
+
+Delete HTML ElementsPassed
+Our phone doesn't have much vertical space.
+
+Let's remove the unnecessary elements so we can start building our CatPhotoApp.
+
+Delete your h1 element so we can simplify our view.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+-----------------------------------------------------------------------------
+
+Introduction to HTML5 ElementsPassed
+HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.
+
+These tags give a descriptive structure to your HTML, make your HTML easier to read, and help with Search Engine Optimization (SEO) and accessibility. The main HTML5 tag helps search engines and other developers find the main content of your page.
+
+Example usage, a main element with two child elements nested inside it:
+
+<main> 
+  <h1>Hello World</h1>
+  <p>Hello Paragraph</p>
+</main>
+Note: Many of the new HTML5 tags and their benefits are covered in the Applied Accessibility section.
+
+Create a second p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
+
+Then, create a main element and nest only the two p elements inside the main element.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+
+-----------------------------------------------------------------------------
+
+Add Images to Your WebsitePassed
+You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+
+An example of this would be:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg">
+Note that img elements are self-closing.
+
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+Ideally the alt attribute should not contain special characters unless needed.
+
+Let's add an alt attribute to our img example above:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+Let's try to add an image to our website:
+
+Within the existing main element, insert an img element before the existing p elements.
+
+Now set the src attribute so that it points to the url https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+
+Finally, don't forget to give your img element an alt attribute with applicable text.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+-----------------------------------------------------------------------------
+
+Add Images to Your WebsitePassed
+You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+
+An example of this would be:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg">
+Note that img elements are self-closing.
+
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+Ideally the alt attribute should not contain special characters unless needed.
+
+Let's add an alt attribute to our img example above:
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+Let's try to add an image to our website:
+
+Within the existing main element, insert an img element before the existing p elements.
+
+Now set the src attribute so that it points to the url https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+
+Finally, don't forget to give your img element an alt attribute with applicable text.
+
+
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Some text here"/>
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+
+</main>
+-----------------------------------------------------------------------------
+
+Link to External Pages with Anchor ElementsPassed
+You can use a (anchor) elements to link to content outside of your web page.
+
+a elements need a destination web address called an href attribute. They also need anchor text. Here's an example:
+
+<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
+Then your browser will display the text this links to freecodecamp.org as a link you can click. And that link will take you to the web address https://www.freecodecamp.org.
+
+Create an a element that links to https://www.freecatphotoapp.com and has "cat photos" as its anchor text.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+ <a href="https://www.freecatphotoapp.com">cat photos</a>
+</main>
+-----------------------------------------------------------------------------
+
+Link to Internal Sections of a Page with Anchor ElementsPassed
+a (anchor) elements can also be used to create internal links to jump to different sections within a webpage.
+
+To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+
+Below is an example of an internal anchor link and its target element:
+
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>
+When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts header element.
+
+Change your external link to an internal link by changing the href attribute to "#footer" and the text from cat photos to Jump to Bottom.
+
+Remove the target="_blank" attribute from the anchor tag since this causes the linked document to open in a new window tab.
+
+Then add an id attribute with a value of footer to the <footer> element at the bottom of the page.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+
+  <a href="#footer">Jump to Bottom</a>
+
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+  <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
+
+</main>
+
+<footer id="footer">Copyright Cat Photo App</footer>
+-----------------------------------------------------------------------------
+
+Nest an Anchor Element within a ParagraphPassed
+You can nest links within other text elements.
+
+<p>
+  Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
+</p>
+Let's break down the example. Normal text is wrapped in the p element:
+
+<p> Here's a ... for you to follow. </p>
+Next is the anchor element <a> (which requires a closing tag </a>):
+
+<a> ... </a>
+target is an anchor tag attribute that specifies where to open the link. The value _blank specifies to open the link in a new tab. The href is an anchor tag attribute that contains the URL address of the link:
+
+<a href="https://www.freecodecamp.org" target="_blank"> ... </a>
+The text, link to www.freecodecamp.org, within the a element is called anchor text, and will display the link to click:
+
+<a href=" ... " target="...">link to freecodecamp.org</a>
+The final output of the example will look like this:
+
+Here's a link to www.freecodecamp.org for you to follow.
+
+Nest the existing a element within a new p element. Do not create a new anchor tag. The new paragraph should have text that says View more cat photos, where cat photos is a link, and the rest is plain text.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a> shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+-----------------------------------------------------------------------------
+
+Nest an Anchor Element within a ParagraphPassed
+You can nest links within other text elements.
+
+<p>
+  Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
+</p>
+Let's break down the example. Normal text is wrapped in the p element:
+
+<p> Here's a ... for you to follow. </p>
+Next is the anchor element <a> (which requires a closing tag </a>):
+
+<a> ... </a>
+target is an anchor tag attribute that specifies where to open the link. The value _blank specifies to open the link in a new tab. The href is an anchor tag attribute that contains the URL address of the link:
+
+<a href="https://www.freecodecamp.org" target="_blank"> ... </a>
+The text, link to www.freecodecamp.org, within the a element is called anchor text, and will display the link to click:
+
+<a href=" ... " target="...">link to freecodecamp.org</a>
+The final output of the example will look like this:
+
+Here's a link to www.freecodecamp.org for you to follow.
+
+Nest the existing a element within a new p element. Do not create a new anchor tag. The new paragraph should have text that says View more cat photos, where cat photos is a link, and the rest is plain text.
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe,  shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
+</main>
+-----------------------------------------------------------------------------
+
+Make Dead Links Using the Hash SymbolPassed
+Sometimes you want to add a elements to your website before you know where they will link.
+
+This is also handy when you're changing the behavior of a link using JavaScript, which we'll learn about later.
+
+The current value of the href attribute is a link that points to "https://www.freecatphotoapp.com". Replace the href attribute value with a #, also known as a hash symbol, to create a dead link.
+
+For example: href="#"
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
+
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+-----------------------------------------------------------------------------
+
+Turn an Image into a LinkPassed
+You can make elements into links by nesting them within an a element.
+
+Nest your image within an a element. Here's an example:
+
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+Remember to use # as your a element's href property in order to turn it into a dead link.
+
+Place the existing image element within an a (anchor) element.
+
+Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+-----------------------------------------------------------------------------
+
+Create a Bulleted Unordered ListPassed
+HTML has a special element for creating unordered lists, or bullet point style lists.
+
+Unordered lists start with an opening <ul> element, followed by any number of <li> elements. Finally, unordered lists close with a </ul>.
+
+For example:
+
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+would create a bullet point style list of milk and cheese.
+
+Remove the last two p elements and create an unordered list of three things that cats love at the bottom of the page.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <ul>
+    <li>fish</li>
+    <li>roofs</li>
+    <li>mice</li>
+  </ul>
+</main>
+-----------------------------------------------------------------------------
+
+Create an Ordered ListPassed
+HTML has another special element for creating ordered lists, or numbered lists.
+
+Ordered lists start with an opening <ol> element, followed by any number of <li> elements. Finally, ordered lists are closed with the </ol> tag.
+
+For example:
+
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+would create a numbered list of Garfield and Sylvester.
+
+Create an ordered list of the top 3 things cats hate the most.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>water</li>
+    <li>dogs</li>
+    <li>tofu</li>
+  </ol>
+</main>
+-----------------------------------------------------------------------------
+
+Create a Text Field
+Now let's create a web form.
+
+input elements are a convenient way to get input from your user.
+
+You can create a text input like this:
+
+<input type="text">
+Note that input elements are self-closing.
+
+Create an input element of type text below your lists.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <input type="text">
+</main>
+
+-----------------------------------------------------------------------------
+
+Add Placeholder Text to a Text FieldPassed
+Placeholder text is what is displayed in your input element before your user has inputted anything.
+
+You can create placeholder text like so:
+
+<input type="text" placeholder="this is placeholder text">
+Note: Remember that input elements are self-closing.
+
+Set the placeholder value of your text input to "cat photo URL".
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <input type="text" placeholder="cat photo URL">
+</main>
+-----------------------------------------------------------------------------
+
+Create a Form Element
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.
+
+For example:
+
+<form action="/url-where-you-want-to-submit-form-data">
+  <input>
+</form>
+Nest the existing input element inside a form element and assign "https://www.freecatphotoapp.com/submit-cat-photo" to the action attribute of the form element.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL">
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Add a Submit Button to a FormPassed
+Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute.
+
+Here's an example submit button:
+
+<button type="submit">this button submits the form</button>
+Add a button as the last element of your form element with a type of submit, and Submit as its text.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL">
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Use HTML5 to Require a FieldPassed
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+
+For example, if you wanted to make a text input field required, you can just add the attribute required within your input element, like this: <input type="text" required>
+
+Make your text input a required field, so that your user can't submit the form without completing this field.
+
+Then try to submit the form without inputting any text. See how your HTML5 form notifies you that the field is required?
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Create a Set of Radio ButtonsPassed
+You can use radio buttons for questions where you want the user to only give you one answer out of multiple options.
+
+Radio buttons are a type of input.
+
+Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
+
+All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+
+Here's an example of a radio button:
+
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+It is considered best practice to set a for attribute on the label element, with a value that matches the value of the id attribute of the input element. This allows assistive technologies to create a linked relationship between the label and the related input element. For example:
+
+<input id="indoor" type="radio" name="indoor-outdoor">
+<label for="indoor">Indoor</label>
+We can also nest the input element within the label tags:
+
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+Add a pair of radio buttons to your form, each nested in its own label element. One should have the option of indoor and the other should have the option of outdoor. Both should share the name attribute of indoor-outdoor to create a radio group.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <label for="indoor"> 
+      <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+    </label>
+    <label for="outdoor"> 
+      <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor 
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Create a Set of CheckboxesPassed
+Forms commonly use checkboxes for questions that may have more than one answer.
+
+Checkboxes are a type of input.
+
+Each of your checkboxes can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the checkbox input with the label element surrounding it.
+
+All related checkbox inputs should have the same name attribute.
+
+It is considered best practice to explicitly define the relationship between a checkbox input and its corresponding label by setting the for attribute on the label element to match the id attribute of the associated input element.
+
+Here's an example of a checkbox:
+
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+Add to your form a set of three checkboxes. Each checkbox should be nested within its own label element. All three should share the name attribute of personality.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+
+    <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving </label>
+    <label for="crazy"><input id="crazy" type="checkbox" name="personality"> crazy </label>
+    <label for="joyful"><input id="joyful" type="checkbox" name="personality"> joyful </label>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Use the value attribute with Radio Buttons and CheckboxesPassed
+When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkbox report their values from the value attribute.
+
+For example:
+
+<label for="indoor">
+  <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+<label for="outdoor">
+  <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor
+</label>
+Here, you have two radio inputs. When the user submits the form with the indoor option selected, the form data will include the line: indoor-outdoor=indoor. This is from the name and value attributes of the "indoor" input.
+
+If you omit the value attribute, the submitted form data uses the default value, which is on. In this scenario, if the user clicked the "indoor" option and submitted the form, the resulting form data would be indoor-outdoor=on, which is not useful. So the value attribute needs to be set to something to identify the option.
+
+Give each of the existing radio and checkbox inputs the value attribute. Do not create any new radio or checkbox elements. Use the input label text, in lowercase, as the value for the attribute.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Check Radio Buttons and Checkboxes by Default
+You can set a checkbox or radio button to be checked by default using the checked attribute.
+
+To do this, just add the word checked to the inside of an input element. For example:
+
+<input type="radio" name="test-name" checked>
+Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Nest Many Elements within a Single div ElementPassed
+The div element, also known as a division element, is a general purpose container for other elements.
+
+The div element is probably the most commonly used HTML element of all.
+
+Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>.
+
+Nest your "Things cats love" and "Top 3 things cats hate" lists all within a single div element.
+
+Hint: Try putting your opening div tag above your "Things cats love" p element and your closing div tag after your closing ol tag so that both of your lists are within one div.
+
+Solution:
+---------------------
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+<div>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+</div>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Declare the Doctype of an HTML DocumentPassed
+The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.
+
+At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
+
+You tell the browser this information by adding the <!DOCTYPE ...> tag on the first line, where the ... part is the version of HTML. For HTML5, you use <!DOCTYPE html>.
+
+The ! and uppercase DOCTYPE is important, especially for older browsers. The html is not case sensitive.
+
+Next, the rest of your HTML code needs to be wrapped in html tags. The opening <html> goes directly below the <!DOCTYPE html> line, and the closing </html> goes at the end of the page.
+
+Here's an example of the page structure. Your HTML code would go in the space between the two html tags.
+
+<!DOCTYPE html>
+<html>
+
+</html>
+Add a DOCTYPE tag for HTML5 to the top of the blank HTML document in the code editor. Under it, add opening and closing html tags, which wrap around an h1 element. The heading can include any text.
+
+Solution:
+---------------------
+<!DOCTYPE html>
+<html>
+  <h1>Discovery!</h1>
+</html>
+-----------------------------------------------------------------------------
+
+Define the Head and Body of an HTML DocumentPassed
+You can add another level of organization in your HTML document within the html tags with the head and body elements. Any markup with information about your page would go into the head tag. Then any markup with the content of the page (what displays for a user) would go into the body tag.
+
+Metadata elements, such as link, meta, title, and style, typically go inside the head element.
+
+Here's an example of a page's layout:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta />
+  </head>
+  <body>
+    <div>
+    </div>
+  </body>
+</html>
+Edit the markup so there's a head and a body. The head element should only include the title, and the body element should only include the h1 and p.
+
+Solution:
+---------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The best page ever</title>
+  </head>
+
+  <body>
+  <h1>The best page ever</h1>
+  <p>Cat ipsum dolor sit amet, jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed. Go into a room to decide you didn't want to be in there anyway. I like big cats and i can not lie kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Meow i could pee on this if i had the energy for slap owner's face at 5am until human fills food dish yet scamper. Knock dish off table head butt cant eat out of my own dish scratch the furniture. Make meme, make cute face. Sleep in the bathroom sink chase laser but pee in the shoe. Paw at your fat belly licks your face and eat grass, throw it back up kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+</body>
+</html>
+-----------------------------------------------------------------------------
+
+Change the Color of TextPassed
+Now let's change the color of some of our text.
+
+We can do this by changing the style of your h2 element.
+
+The property that is responsible for the color of an element's text is the color style property.
+
+Here's how you would set your h2 element's text color to blue:
+
+<h2 style="color: blue;">CatPhotoApp</h2>
+Note that it is a good practice to end inline style declarations with a ; .
+
+Change your h2 element's style so that its text color is red.
+
+
+Solution:
+---------------------
+<h2 style="color: red;">CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Use CSS Selectors to Style ElementsPassed
+With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.
+
+When you entered <h2 style="color: red;">CatPhotoApp</h2>, you were styling that individual h2 element with inline CSS, which stands for Cascading Style Sheets.
+
+That's one way to specify the style of an element, but there's a better way to apply CSS.
+
+At the top of your code, create a style block like this:
+
+<style>
+</style>
+Inside that style block, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, you would add a style rule that looks like this:
+
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+Note that it's important to have both opening and closing curly braces ({ and }) around each element's style rule(s). You also need to make sure that your element's style definition is between the opening and closing style tags. Finally, be sure to add a semicolon to the end of each of your element's style rules.
+
+Delete your h2 element's style attribute, and instead create a CSS style block. Add the necessary CSS to turn all h2 elements blue.
+
+Solution:
+---------------------
+<style>
+  h2 {
+    color: blue;
+  }
+</style>
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Use a CSS Class to Style an ElementPassed
+Classes are reusable styles that can be added to HTML elements.
+
+Here's an example CSS class declaration:
+
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+You can see that we've created a CSS class called blue-text within the <style> tag. You can apply a class to an HTML element like this: <h2 class="blue-text">CatPhotoApp</h2>. Note that in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
+
+Inside your style element, change the h2 selector to .red-text and update the color's value from blue to red.
+
+Give your h2 element the class attribute with a value of red-text.
+
+Solution:
+---------------------
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Style Multiple Elements with a CSS ClassPassed
+Classes allow you to use the same CSS styles on multiple HTML elements. You can see this by applying your red-text class to the first p element.
+
+Solution:
+---------------------
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Change the Font Size of an Element
+Font size is controlled by the font-size CSS property, like this:
+
+h1 {
+  font-size: 30px;
+}
+
+
+Solution:
+---------------------
+<style>
+  .red-text {
+    color: red;
+  }
+  p{
+    font-size: 16px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Set the Font Family of an Element
+You can set which font an element should use, by using the font-family property.
+
+For example, if you wanted to set your h2 element's font to sans-serif, you would use the following CSS:
+
+h2 {
+  font-family: sans-serif;
+}
+Make all of your p elements use the monospace font.
+
+Solution:
+---------------------
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Import a Google Font
+In addition to specifying common fonts that are found on most operating systems, we can also specify non-standard, custom web fonts for use on our website. There are many sources for web fonts on the Internet. For this example we will focus on the Google Fonts library.
+
+Google Fonts is a free library of web fonts that you can use in your CSS by referencing the font's URL.
+
+So, let's go ahead and import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).
+
+To import a Google Font, you can copy the font's URL from the Google Fonts library and then paste it in your HTML. For this challenge, we'll import the Lobster font. To do this, copy the following code snippet and paste it into the top of your code editor (before the opening style element):
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+Now you can use the Lobster font in your CSS by using Lobster as the FAMILY_NAME as in the following example:
+
+font-family: FAMILY_NAME, GENERIC_NAME;
+The GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. This is covered in the next challenge.
+
+Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font.
+
+Import the Lobster font to your web page. Then, use an element selector to set Lobster as the font-family for your h2 element.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+  h2{
+    font-family: lobster;
+  }
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Specify How Fonts Should Degrade
+There are several default fonts that are available in all browsers. These generic font families include monospace, serif and sans-serif.
+
+When one font isn't available, you can tell the browser to "degrade" to another font.
+
+For example, if you wanted an element to use the Helvetica font, but degrade to the sans-serif font when Helvetica isn't available, you will specify it as follows:
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
+
+To begin, apply the monospace font to the h2 element, so that it now has two fonts - Lobster and monospace.
+
+In the last challenge, you imported the Lobster font using the link tag. Now comment out that import of the Lobster font (using the HTML comments you learned before) from Google Fonts so that it isn't available anymore. Notice how your h2 element degrades to the monospace font.
+
+Note: If you have the Lobster font installed on your computer, you won't see the degradation because your browser is able to find the font.
+
+Solution:
+---------------------
+<!--<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">-->
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+ 
+-----------------------------------------------------------------------------
+
+Size Your Images
+CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width.
+
+For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use:
+
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+Create a class called smaller-image and use it to resize the image so that it's only 100 pixels wide.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+  .smaller-image{
+    width: 100px;
+  }
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Add Borders Around Your Elements
+CSS borders have properties like style, color and width.
+
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
+
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+Create a class called thick-green-border. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
+
+Remember that you can apply multiple classes to an element using its class attribute, by separating each class name with a space. For example:
+
+<img class="class1 class2">
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Add Rounded Corners with border-radius
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called border-radius.
+
+You can specify a border-radius with pixels. Give your cat photo a border-radius of 10px.
+
+Note: This challenge allows for multiple possible solutions. For example, you may add border-radius to either the .thick-green-border class or the .smaller-image class.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Make Circular Images with a border-radius
+In addition to pixels, you can also specify the border-radius using a percentage.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Give a Background Color to a div Element
+You can set an element's background color with the background-color property.
+
+For example, if you wanted an element's background color to be green, you'd put this within your style element:
+
+.green-background {
+  background-color: green;
+}
+Create a class called silver-background with the background-color of silver. Assign this class to your div element.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .silver-background{
+    background-color: silver;
+  }
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div class="silver-background">
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Set the id of an Element
+In addition to classes, each HTML element can also have an id attribute.
+
+There are several benefits to using id attributes: You can use an id to style a single element and later you'll learn that you can use them to select and modify specific elements with JavaScript.
+
+id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
+
+Here's an example of how you give your h2 element the id of cat-photo-app:
+
+<h2 id="cat-photo-app">
+Give your form element the id cat-photo-form.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .silver-background {
+    background-color: silver;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div class="silver-background">
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+Use an id Attribute to Style an Element
+One cool thing about id attributes is that, like classes, you can style them using CSS.
+
+However, an id is not reusable and should only be applied to one element. An id also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
+
+Here's an example of how you can take your element with the id attribute of cat-photo-element and give it the background color of green. In your style element:
+
+#cat-photo-element {
+  background-color: green;
+}
+Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names.
+
+Try giving your form, which now has the id attribute of cat-photo-form, a green background.
+
+Solution:
+---------------------
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+
+  .silver-background {
+    background-color: silver;
+  }
+  #cat-photo-form{
+    background-color: green;  
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+  <div class="silver-background">
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+-----------------------------------------------------------------------------
+
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
+
+
+Solution:
+---------------------
+
+-----------------------------------------------------------------------------
